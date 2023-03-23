@@ -267,6 +267,8 @@ footer .widget_title_text{
     color: #FFF;
 }
 .footer_copy{
+    display: flex;
+    justify-content: space-between;
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
@@ -341,6 +343,14 @@ p,
 .mm_line{
     height: 4px;
     background-color: #39aae1;
+}
+.coded{
+    color: white;
+    text-align: right;
+}
+.coded a{
+    color: #39aae1;
+    text-decoration: none;
 }
 @media only screen and (max-width:768px){
     .banner_headline h1,
